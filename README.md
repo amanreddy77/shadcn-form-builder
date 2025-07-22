@@ -6,11 +6,11 @@
   Awesome WYSIWYG codegen Shadcn/ui Form Builder
   <br />
   <br />
-  <a href="https://forms.ouassim.tech" target="_blank">Demo</a>
+ 
   ·
-  <a href="https://github.com/strlrd-29/shadcn-ui-form-builder/issues/new">Report Bug</a>
+
   ·
-  <a href="https://github.com/strlrd-29/shadcn-ui-form-builder/issues/new">Request Feature</a>
+
 </p>
 
 ## Table of Contents
@@ -29,7 +29,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://forms.ouassim.tech)
+
 
 Creating forms has never been simpler, thanks to [shadcn/ui](https://ui.shadcn.com) and [React Hook Form](https://www.react-hook-form.com/). But what if we took it a step further? Imagine if you could simply select the input fields you need, and the rest was done for you—automatically:
 
@@ -96,7 +96,7 @@ Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-
+ 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.

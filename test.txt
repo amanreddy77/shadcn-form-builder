@@ -14,8 +14,7 @@
                                                                                   
   ## About The Project                                                            
                                                                                   
-  Image: Product Name Screen Shot → /home/ouassim/projects/shadcn-form-           
-  builder/public/screenshot.png https://forms.ouassim.tech                        
+                        
                                                                                   
   Creating forms has never been simpler, thanks to shadcn/ui https://ui.shadcn.com
   and React Hook Form https://www.react-hook-form.com/. But what if we took it a  

@@ -10,7 +10,7 @@ import { Toaster } from "@/components/ui/toaster"
 import { TooltipProvider } from "@/components/ui/tooltip"
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://forms.ouassim.tech"),
+  metadataBase: new URL("https://localhost:3000"),
   title: {
     default: "Shadcn Form Builder",
     template: "%s - Shadcn Form Builder",
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   keywords: ["React", "Shadcn", "React hook form", "Zod"],
   authors: [
     {
-      name: "ouassim",
-      url: "https://ouassim.tech",
+      name: "Aman Reddy",
+      url: "https://portfolio-aman-gamma.vercel.app/",
     },
   ],
 }

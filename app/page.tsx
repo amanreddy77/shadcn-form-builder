@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/sidebar"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ClearForm } from "@/components/clear-form"
-import { Cli } from "@/components/cli"
 import { CodeBlock } from "@/components/code-block"
 import { EditFormField } from "@/components/edit-form-field"
 import { FormEditor } from "@/components/form-editor"
@@ -28,7 +27,7 @@ export default async function Home() {
           </div>
           <div className="flex items-center gap-1">
             <Link
-              href="https://github.com/strlrd-29/shadcn-ui-form-builder"
+              href="https://github.com/amanreddy77"
               target="_blank"
               rel="noreferrer"
             >
@@ -44,23 +43,7 @@ export default async function Home() {
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>
-            <Link
-              href="https://x.com/strlrd29"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div
-                className={cn(
-                  buttonVariants({
-                    variant: "ghost",
-                  }),
-                  "h-8 w-8 px-0"
-                )}
-              >
-                <Icons.twitter className="h-3 w-3 fill-current" />
-                <span className="sr-only">Twitter</span>
-              </div>
-            </Link>
+
             <ModeToggle />
           </div>
         </header>
@@ -79,13 +62,6 @@ export default async function Home() {
               >
                 Preview
               </TabsTrigger>
-              <TabsTrigger
-                value="code"
-                className="relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none"
-              >
-                Code
-              </TabsTrigger>
-              <Cli />
             </TabsList>
             <TabsContent value="preview">
               <FormEditor />
@@ -101,15 +77,15 @@ export default async function Home() {
             Built by{" "}
             <Link
               target="_blank"
-              href="https://www.ouassim.tech"
+              href="https://portfolio-aman-gamma.vercel.app/"
               className="underline"
             >
-              ouassim.
+              Aman Reddy.
             </Link>{" "}
             The source code is availabe on{" "}
             <Link
               target="_blank"
-              href="https://github.com/strlrd-29/shadcn-ui-form-builder"
+              href="https://github.com/amanreddy77/shadcn-form-builder"
               className="underline"
             >
               GitHub.
